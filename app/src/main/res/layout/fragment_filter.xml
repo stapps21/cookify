@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".ui.main.filter.FilterFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:orientation="vertical">
+
+            <!--========== CATEGORY MEALS ==========-->
+            <TextView
+                android:id="@+id/tv_meals_filter_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meals"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/cg_meals"
+                style="@style/Widget.Material3.ChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_meals_filter_header">
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <!--========== DIVIDER ==========-->
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/div_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/cg_meals" />
+
+            <!--========== CATEGORY DIETS ==========-->
+            <TextView
+                android:id="@+id/tv_diets_filter_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Diets"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/div_1" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/cg_diets"
+                style="@style/Widget.Material3.ChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_diets_filter_header">
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_add_recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Zeige gefilterte Rezepte"
+        android:text="@null"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        tools:text="Zeige X Rezepte" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

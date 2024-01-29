@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="32dp"
+    android:orientation="vertical"
+    android:id="@+id/ll_no_recipes_container"
+    android:background="@drawable/bg_component_no_recipes"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/emoji_plate"
+        android:textAlignment="center"
+        android:textSize="56dp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_recipes"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_add_recipe"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_recipe"/>
+
+</LinearLayout>

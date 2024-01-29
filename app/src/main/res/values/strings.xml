@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cookify</string>
+    <string name="title_home">Home</string>
+    <string name="title_filter">Filter</string>
+    <string name="title_library">Library</string>
+    <string name="settings">Settings</string>
+    <string name="content_description_settings">App Settings</string>
+    <string name="fab_content_desc">Add new recipe</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="new_recipe">New recipe</string>
+    <string name="search_hint">Search…</string>
+    <string name="save">Save</string>
+    <string name="save_content_description">Save Recipe</string>
+    <string name="content_description_search">TODO</string>
+    <string name="search">Search</string>
+
+    <!-- Difficulties -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+
+    <!-- Filters -->
+    <string name="filter_category_meals">Meals</string>
+    <string name="meals_breakfast">&#129360; Breakfast</string>
+    <string name="meals_lunch">&#127835; Lunch</string>
+    <string name="meals_dinner">&#127837; Dinner</string>
+    <string name="meals_snack">&#127851; Snack</string>
+    <string name="meals_dessert">&#127856; Dessert</string>
+    <string name="meals_salad">&#129367; Salad</string>
+    <string name="meals_shake">&#129380; Shake</string>
+    <string name="meals_soup">&#127858; Soup</string>
+    <string name="meals_smoothie">&#127865; Smoothie</string>
+    <string name="meals_alc_mixes">&#127864; Alcoholic mixes</string>
+
+    <string name="filter_category_diets">Diets</string>
+    <string name="diets_vegetarian">&#129472; Vegetarian</string>
+    <string name="diets_vegan">&#127793; Vegan</string>
+    <string name="diets_pescetarian">&#128031; Pescetarian</string>
+    <string name="diets_lactose_free">&#129371; Lactose Free</string>
+    <string name="diets_gluten_free">&#127838; Gluten Free</string>
+    <string name="diets_low_carb">&#129382; Low Carb</string>
+    <string name="diets_high_protein">&#128170; High Protein</string>
+    <string name="fab_show_numb_filter_result">Show {0} Recipe</string>
+    <string name="fab_show_numb_filter_results">Show {0} Recipes</string>
+    <string name="fab_no_recipes_found">No Recipes Found</string>
+    <string name="favorites">Favorites</string>
+    <string name="recently_added">Recently added</string>
+    <string name="desserts">Desserts</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snacks</string>
+    <string name="see_all">See all</string>
+    <string name="salads">Salads</string>
+    <string name="lactose_free">Lactose Free</string>
+    <string name="vegan">Vegan</string>
+
+    <!-- Home Categories Meals -->
+    <string name="icon_breakfast" translatable="false">&#129360;</string>
+    <string name="icon_lunch" translatable="false">&#127835;</string>
+    <string name="icon_dinner" translatable="false">&#127837;</string>
+    <string name="icon_snack" translatable="false">&#127851;</string>
+    <string name="icon_dessert" translatable="false">&#127856;</string>
+    <string name="icon_salad" translatable="false">&#129367;</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_save">Save!</string>
+    <string name="welcome">Welcome</string>
+    <string name="dialog_title_new_ingredient">New Ingredient</string>
+    <string name="dialog_btn_add">Add</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_title_new_step">New Step</string>
+    <string name="filtered_title">Recipes ({0})</string>
+    <string name="newrecipe_desc_info" tools:ignore="MissingTranslation">Put in the general recipe information:</string>
+    <string name="newrecipe_desc_takepicture" tools:ignore="MissingTranslation">Take a picture with the camera or load an image from your gallery</string>
+    <string name="newrecipe_desc_ingredients" tools:ignore="MissingTranslation">Add all ingredients you need for the recipe</string>
+    <string name="newrecipe_desc_filters" tools:ignore="MissingTranslation">Select all filters matching you recipe</string>
+    <string name="newrecipe_desc_steps" tools:ignore="MissingTranslation">Add some instructions</string>
+
+    <!-- other -->
+    <string name="no_search_results">No search results</string>
+    <string name="no_recipes">You don\'t have any Recipes</string>
+    <string name="btn_add_recipe">Add Recipe</string>
+    <string name="emoji_plate" translatable="false">🍽</string>
+    <string name="loading">Loading…</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="amount">Amount</string>
+    <string name="unit">Unit</string>
+    <string name="instructions">Instructions:</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="servings">Servings</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="short_description">Short description</string>
+    <string name="duration">Duration</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="what_to_do">What to do?</string>
+</resources>
